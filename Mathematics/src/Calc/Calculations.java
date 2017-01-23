@@ -18,6 +18,12 @@ public class Calculations {
 
 		FindingDuplicate dupnum = new FindingDuplicate();
 		dupnum.dup(dupe);
+		
+		ReverseString reverseString = new ReverseString();
+		reverseString.revstring("hello");
+		
+		PalindromeString palindromeString = new PalindromeString();
+		palindromeString.palinstrn("ana");
 	}
 
 }
